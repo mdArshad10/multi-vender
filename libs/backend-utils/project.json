@@ -1,0 +1,16 @@
+{
+  "name": "backend-utils",
+  "sourceRoot": "libs/backend-utils/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "libs/dist/backend-utils",
+        "main": "libs/backend-utils/src/index.ts",
+        "tsConfig": "libs/backend-utils/tsconfig.lib.json"
+      }
+    }
+  }
+}

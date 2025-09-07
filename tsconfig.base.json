@@ -15,7 +15,13 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "strict": true,
+    "baseUrl": ".",
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "paths": {
+      "@@multi-venden/database": ["database/src/index.ts"],
+      "@auth-service/*": ["apps/auth-service/src/*"],
+      "@multi-venden/backend-utils": ["libs/backend-utils/src/index.ts"]
+    }
   }
 }
