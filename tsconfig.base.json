@@ -21,7 +21,11 @@
     "paths": {
       "@@multi-venden/database": ["database/src/index.ts"],
       "@auth-service/*": ["apps/auth-service/src/*"],
-      "@multi-venden/backend-utils": ["libs/backend-utils/src/index.ts"]
+      "@multi-venden/backend-utils": ["libs/backend-utils/src/index.ts"],
+      "@ui/*": ["libs/ui/src/*"],
+      "@ui/components/*": ["libs/ui/src/components/*"],
+      "@ui/hooks/*": ["libs/ui/src/hooks/*"],
+      "@ui/lib/*": ["libs/ui/src/lib/*"]
     }
   }
 }

@@ -20,6 +20,12 @@
     },
     {
       "path": "./libs/backend-utils"
+    },
+    {
+      "path": "./apps/user-ui"
+    },
+    {
+      "path": "./libs/ui"
     }
   ]
 }
